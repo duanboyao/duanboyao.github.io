@@ -4,17 +4,17 @@
   <meta charset="utf-8">
   
   
-  <title>Hexo</title>
+  <title>Linux 安装 PostgreSQL 数据库 | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="title: Linux 安装 PostgreSQL 数据库 下载压缩包下载 postgresql-9.6.24.tar.gz 创建 postgres 用户1useradd postgres  解压1tar -xvf postgresql-9.6.24.tar.gz -C &#x2F;home&#x2F;postgres&#x2F;  编译源码123.&#x2F;configure --prefix&#x3D;&#x2F;home&#x2F;postgres&#x2F;pos">
+  <meta name="description" content="下载压缩包下载 postgresql-9.6.24.tar.gz 创建 postgres 用户1useradd postgres  解压1tar -xvf postgresql-9.6.24.tar.gz -C &#x2F;home&#x2F;postgres&#x2F;  编译源码123.&#x2F;configure --prefix&#x3D;&#x2F;home&#x2F;postgres&#x2F;postgresqlmakemake install  创建data">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://example.com/2024/05/11/linux%20%E5%AE%89%E8%A3%85%20PostgreSQL/index.html">
+<meta property="og:title" content="Linux 安装 PostgreSQL 数据库">
+<meta property="og:url" content="http://example.com/2024/05/11/Linux-%E5%AE%89%E8%A3%85-PostgreSQL-%E6%95%B0%E6%8D%AE%E5%BA%93/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="title: Linux 安装 PostgreSQL 数据库 下载压缩包下载 postgresql-9.6.24.tar.gz 创建 postgres 用户1useradd postgres  解压1tar -xvf postgresql-9.6.24.tar.gz -C &#x2F;home&#x2F;postgres&#x2F;  编译源码123.&#x2F;configure --prefix&#x3D;&#x2F;home&#x2F;postgres&#x2F;pos">
+<meta property="og:description" content="下载压缩包下载 postgresql-9.6.24.tar.gz 创建 postgres 用户1useradd postgres  解压1tar -xvf postgresql-9.6.24.tar.gz -C &#x2F;home&#x2F;postgres&#x2F;  编译源码123.&#x2F;configure --prefix&#x3D;&#x2F;home&#x2F;postgres&#x2F;postgresqlmakemake install  创建data">
 <meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2024-05-11T03:39:09.709Z">
-<meta property="article:modified_time" content="2024-05-11T06:27:40.527Z">
+<meta property="article:published_time" content="2024-05-11T06:35:33.000Z">
+<meta property="article:modified_time" content="2024-05-11T06:36:56.992Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
   
@@ -71,20 +71,29 @@
 </header>
 
       <div class="outer">
-        <section id="main"><article id="post-linux 安装 PostgreSQL" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+        <section id="main"><article id="post-Linux-安装-PostgreSQL-数据库" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
-    <a href="/2024/05/11/linux%20%E5%AE%89%E8%A3%85%20PostgreSQL/" class="article-date">
-  <time class="dt-published" datetime="2024-05-11T03:39:09.709Z" itemprop="datePublished">2024-05-11</time>
+    <a href="/2024/05/11/Linux-%E5%AE%89%E8%A3%85-PostgreSQL-%E6%95%B0%E6%8D%AE%E5%BA%93/" class="article-date">
+  <time class="dt-published" datetime="2024-05-11T06:35:33.000Z" itemprop="datePublished">2024-05-11</time>
 </a>
     
   </div>
   <div class="article-inner">
     
     
+      <header class="article-header">
+        
+  
+    <h1 class="p-name article-title" itemprop="headline name">
+      Linux 安装 PostgreSQL 数据库
+    </h1>
+  
+
+      </header>
+    
     <div class="e-content article-entry" itemprop="articleBody">
       
-        <p>title: Linux 安装 PostgreSQL 数据库</p>
-<h5 id="下载压缩包"><a href="#下载压缩包" class="headerlink" title="下载压缩包"></a>下载压缩包</h5><p><a target="_blank" rel="noopener" href="https://ftp.postgresql.org/pub/source/v9.6.24/postgresql-9.6.24.tar.gz">下载 postgresql-9.6.24.tar.gz</a></p>
+        <h5 id="下载压缩包"><a href="#下载压缩包" class="headerlink" title="下载压缩包"></a>下载压缩包</h5><p><a target="_blank" rel="noopener" href="https://ftp.postgresql.org/pub/source/v9.6.24/postgresql-9.6.24.tar.gz">下载 postgresql-9.6.24.tar.gz</a></p>
 <h5 id="创建-postgres-用户"><a href="#创建-postgres-用户" class="headerlink" title="创建 postgres 用户"></a>创建 postgres 用户</h5><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">useradd postgres</span><br></pre></td></tr></table></figure>
 
 <h5 id="解压"><a href="#解压" class="headerlink" title="解压"></a>解压</h5><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">tar -xvf postgresql-9.6.24.tar.gz -C /home/postgres/</span><br></pre></td></tr></table></figure>
@@ -133,11 +142,11 @@
 <p>增加以下内容</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">host    all             all             0.0.0.0/0            md5</span><br></pre></td></tr></table></figure>
 
-<h5 id="设置开机自启"><a href="#设置开机自启" class="headerlink" title="设置开机自启"></a>设置开机自启</h5><p>PostgreSQL的开机自启动脚本位于PostgreSQL源码目录的contrib&#x2F;start-scripts路径下。<br />linux文件即为linux系统上的启动脚本</p>
+<h5 id="设置开机自启"><a href="#设置开机自启" class="headerlink" title="设置开机自启"></a>设置开机自启</h5><p>PostgreSQL的开机自启动脚本位于PostgreSQL源码目录的contrib&#x2F;start-scripts路径下。<br>linux文件即为linux系统上的启动脚本</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> /pgsql/postgresql-11.1/contrib/start-scripts</span><br><span class="line"><span class="built_in">ls</span></span><br></pre></td></tr></table></figure>
 
 <blockquote>
-<p>freebsd  linux  macos</p>
+<p>freebsd linux macos</p>
 </blockquote>
 </li>
 <li><p>切换为root用户，修改linux文件属性，添加X属性</p>
@@ -148,7 +157,7 @@
 </li>
 <li><p>修改&#x2F;etc&#x2F;init.d&#x2F;postgresql文件的两个变量</p>
 <blockquote>
-<p>prefix设置为postgresql的安装路径：&#x2F;pgsql&#x2F;postgresql<br />PGDATA设置为postgresql的数据目录路径：&#x2F;pgsql&#x2F;postgresql&#x2F;data</p>
+<p>prefix设置为postgresql的安装路径：&#x2F;pgsql&#x2F;postgresql<br>PGDATA设置为postgresql的数据目录路径：&#x2F;pgsql&#x2F;postgresql&#x2F;data</p>
 </blockquote>
 </li>
 <li><p>设置postgresql服务开机自启动</p>
@@ -158,7 +167,7 @@
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">chkconfig</span><br></pre></td></tr></table></figure>
 
 <blockquote>
-<p>postgresql         0:关闭    1:关闭    2:启用    3:启用    4:启用    5:启用    6:关闭</p>
+<p>postgresql 0:关闭 1:关闭 2:启用 3:启用 4:启用 5:启用 6:关闭</p>
 </blockquote>
 </li>
 <li><p>编辑&#x2F;etc&#x2F;sysconfig&#x2F;iptables文件开放5432端口。</p>
@@ -171,23 +180,23 @@
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">/etc/init.d/iptables restart</span><br></pre></td></tr></table></figure>
 
 <blockquote>
-<p>iptables：清除防火墙规则：                                 [确定]<br>iptables：将链设置为政策 ACCEPT：filter                    [确定]<br>iptables：正在卸载模块：                                   [确定]<br>iptables：应用防火墙规则：                                 [确定]</p>
+<p>iptables：清除防火墙规则： [确定]<br>iptables：将链设置为政策 ACCEPT：filter [确定]<br>iptables：正在卸载模块： [确定]<br>iptables：应用防火墙规则： [确定]</p>
 </blockquote>
 <p>查看端口是否开放</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">/sbin/iptables -L -n</span><br></pre></td></tr></table></figure>
 
 <blockquote>
 <p>Chain INPUT (policy ACCEPT)</p>
-<p>target     prot opt source               destination</p>
-<p>ACCEPT     all  –  0.0.0.0&#x2F;0            0.0.0.0&#x2F;0           state RELATED,ESTABLISHED ACCEPT     icmp –  0.0.0.0&#x2F;0            0.0.0.0&#x2F;0</p>
-<p>ACCEPT     all  –  0.0.0.0&#x2F;0            0.0.0.0&#x2F;0 </p>
-<p>ACCEPT     tcp  –  0.0.0.0&#x2F;0            0.0.0.0&#x2F;0           tcp dpt:5432 </p>
-<p>ACCEPT     tcp  –  0.0.0.0&#x2F;0            0.0.0.0&#x2F;0           state NEW tcp dpt:22</p>
-<p>REJECT     all  –  0.0.0.0&#x2F;0            0.0.0.0&#x2F;0           reject-with icmp-host-prohibited Chain FORWARD (policy ACCEPT)</p>
-<p>target     prot opt source               destination</p>
-<p>REJECT     all  –  0.0.0.0&#x2F;0            0.0.0.0&#x2F;0           reject-with icmp-host-prohibited</p>
+<p>target prot opt source destination</p>
+<p>ACCEPT all – 0.0.0.0&#x2F;0 0.0.0.0&#x2F;0 state RELATED,ESTABLISHED ACCEPT icmp – 0.0.0.0&#x2F;0 0.0.0.0&#x2F;0</p>
+<p>ACCEPT all – 0.0.0.0&#x2F;0 0.0.0.0&#x2F;0</p>
+<p>ACCEPT tcp – 0.0.0.0&#x2F;0 0.0.0.0&#x2F;0 tcp dpt:5432</p>
+<p>ACCEPT tcp – 0.0.0.0&#x2F;0 0.0.0.0&#x2F;0 state NEW tcp dpt:22</p>
+<p>REJECT all – 0.0.0.0&#x2F;0 0.0.0.0&#x2F;0 reject-with icmp-host-prohibited Chain FORWARD (policy ACCEPT)</p>
+<p>target prot opt source destination</p>
+<p>REJECT all – 0.0.0.0&#x2F;0 0.0.0.0&#x2F;0 reject-with icmp-host-prohibited</p>
 <p>Chain OUTPUT (policy ACCEPT)</p>
-<p>target     prot opt source               destination  </p>
+<p>target prot opt source destination</p>
 </blockquote>
 </li>
 <li><p>执行service postgresql start，启动PostgreSQL服务</p>
@@ -204,7 +213,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2024/05/11/linux%20%E5%AE%89%E8%A3%85%20PostgreSQL/" data-id="clw1kevp10000eox6bpdk89u3" data-title="" class="article-share-link"><span class="fa fa-share">Share</span></a>
+      <a data-url="http://example.com/2024/05/11/Linux-%E5%AE%89%E8%A3%85-PostgreSQL-%E6%95%B0%E6%8D%AE%E5%BA%93/" data-id="clw1qhf290000g8x61szj0rxx" data-title="Linux 安装 PostgreSQL 数据库" class="article-share-link"><span class="fa fa-share">Share</span></a>
       
       
       
@@ -245,7 +254,7 @@
       <ul>
         
           <li>
-            <a href="/2024/05/11/linux%20%E5%AE%89%E8%A3%85%20PostgreSQL/">(no title)</a>
+            <a href="/2024/05/11/Linux-%E5%AE%89%E8%A3%85-PostgreSQL-%E6%95%B0%E6%8D%AE%E5%BA%93/">Linux 安装 PostgreSQL 数据库</a>
           </li>
         
       </ul>
