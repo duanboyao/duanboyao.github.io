@@ -1,11 +1,22 @@
 <!DOCTYPE html>
-<html>
-<head>
+<html lang="en">
+    <head>
+  <!-- 元数据 -->
   <meta charset="utf-8">
   
   
   <title>Hexo</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  
+  <meta name="author" content="John Doe" />
+  <meta http-equiv="Cache-Control" content="no-transform" />
+  <meta http-equiv="Cache-Control" content="no-siteapp" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="robots" content="index,follow" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <meta name="format-detection" content="telphone=no, email=no" />
+  
+    <meta name="keywords" content="" />
+  
   <meta property="og:type" content="website">
 <meta property="og:title" content="Hexo">
 <meta property="og:url" content="http://example.com/index.html">
@@ -14,415 +25,471 @@
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
   
-    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
-  
-  
-    <link rel="shortcut icon" href="/favicon.png">
-  
-  
-  
-<link rel="stylesheet" href="/css/style.css">
-
+  <!-- 站点验证相关 -->
   
     
-<link rel="stylesheet" href="/fancybox/jquery.fancybox.min.css">
-
+    
+    
   
+  <!-- 样式表文件 -->
+  <link rel="stylesheet" id="kratos-css" href="/css/kratosr.min.css" media="all"></script>
+  
+    <link rel="stylesheet" id="darkmode-css" href="/css/kr-color-dark.min.css" media="(prefers-color-scheme: dark)"></script>
+    <script src="/js/kr-dark.min.js"></script>
+  
+  
+  <link rel="stylesheet" id="fontawe-css" href="/vendors/font-awesome@4.7.0/css/font-awesome.min.css" media="all"></script>
+  <link rel="stylesheet" id="nprogress-css" href="/vendors/nprogress@0.2.0/nprogress.css" media="all"></script>
+  
+  
+    <link rel="stylesheet" href="/vendors/aplayer@1.10.1/dist/APlayer.min.css"></script>
+  
+  
+    <link rel="stylesheet" href="/vendors/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css"></script>
+  
+  <!-- 不得不预先加载的一些JS文件 -->
+  <script src="/vendors/jquery@3.6.0/dist/jquery.min.js"></script>
+  
+    <script src="/vendors/qrcode_js@1.0.0/qrcode.min.js"></script>
+  
+  
+  <style>
+    
+    
+  </style>
   
 <meta name="generator" content="Hexo 7.2.0"></head>
 
-<body>
-  <div id="container">
-    <div id="wrap">
-      <header id="header">
-  <div id="banner"></div>
-  <div id="header-outer" class="outer">
-    <div id="header-title" class="inner">
-      <h1 id="logo-wrap">
-        <a href="/" id="logo">Hexo</a>
-      </h1>
-      
+
+    <body class="custom-background">
+        <div id="kratos-wrapper">
+    <div id="kratos-page">
+        <div id="kratos-header">
+            <header id="kratos-desktop-topnav" class="kratos-topnav">
+                <div class="container">
+                    <div class="nav-header">
+                        <nav id="kratos-menu-wrap">
+                            <ul id="kratos-primary-menu" class="sf-menu">
+                                
+                                    
+                                    
+                                
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </header>
+            <header id="kratos-mobile-topnav" class="kratos-topnav">
+                <div class="container">
+                    <div class="color-logo"><a href="/">Hexo</a></div>
+                    <div class="nav-toggle">
+                        <a class="kratos-nav-toggle js-kratos-nav-toggle">
+                            <i></i>
+                        </a>
+                    </div>
+                </div>
+            </header>
+        </div>
+        <div class="kratos-start kratos-hero-2">
+            <!-- <div class="kratos-overlay"></div> -->
+            <div class="kratos-cover kratos-cover-2 text-center">
+                <div class="desc desc2 animate-box">
+                    <a href="/">
+                        <h2>Hexo</h2> <br />
+                        <span></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div id="kratos-blog-post">
+            <div class="container">
+                <div id="main" class="row">
+                    
+
+        
+
+            <section class="col-md-8">
+
+        
+
+            <!-- Breadcrumb for tag & category page -->
+
+
+
+
+    
+    
+        <article class="kratos-hentry clearfix" itemscope itemtype="https://schema.org/Article">
+            <div class="kratos-entry-border-new clearfix">
+                
+                <div class="kratos-entry-thumb-new">
+                    <a href="/2024/05/11/%E5%9C%A8Linux%E4%B8%AD%E9%80%9A%E8%BF%87Docker%E9%95%9C%E5%83%8F%E5%AE%89%E8%A3%85Oracle/">
+                        
+                            <img class="kratos-entry-thumb-new-img" alt="">
+                        
+                    </a>
+                </div>
+                <div class="kratos-post-inner-new">
+                    <header class="kratos-entry-header-new">
+                            
+                        <h2 class="kratos-entry-title-new"><a href="/2024/05/11/%E5%9C%A8Linux%E4%B8%AD%E9%80%9A%E8%BF%87Docker%E9%95%9C%E5%83%8F%E5%AE%89%E8%A3%85Oracle/" itemprop="mainEntityOfPage"><span itemprop="name headline">在Linux中通过Docker镜像安装Oracle</span></a>
+                    </header>
+                    <div class="kratos-entry-content-new">
+                        <p itemProp="description">
+                            
+                                下载镜像
+镜像在阿里云盘
+&#x2F;备份盘&#x2F;开发环境&#x2F;linux&#x2F;数据库&#x2F;oracle&#x2F;docker镜像&#x2F;oracle19c.tar
+
+上传到对应的服务器导入镜像
+1doc...
+                            
+                        </p>
+                    </div>
+                </div>
+                <footer class="kratos-post-meta-new">
+                    <span class="pull-left">
+                        <time datetime="2024-05-11T06:45:36.000Z" itemprop="datePublished">
+                            <a><i class="fa fa-calendar"></i> 2024-05-11</a>
+                        </time>
+                        <a>
+                            
+                        </a>
+                        
+                            <!-- 当前仅支持valine/waline自带的统计功能 -->
+                            
+                        
+                        
+                            <!-- 当前仅支持waline自带的统计功能 -->
+                            
+                        
+                    </span>
+                    <span class="pull-right">
+                        <a class="read-more" href="/2024/05/11/%E5%9C%A8Linux%E4%B8%AD%E9%80%9A%E8%BF%87Docker%E9%95%9C%E5%83%8F%E5%AE%89%E8%A3%85Oracle/" title="阅读全文">阅读全文<i class="fa fa-chevron-circle-right"></i></a>
+                    </span>
+                </footer>
+            </div>
+        </article>
+    
+
+    
+    
+        <article class="kratos-hentry clearfix" itemscope itemtype="https://schema.org/Article">
+            <div class="kratos-entry-border-new clearfix">
+                
+                <div class="kratos-entry-thumb-new">
+                    <a href="/2024/05/11/Docker%E9%95%9C%E5%83%8F%E7%9A%84%E4%B8%8B%E8%BD%BD%E4%B8%8E%E5%8A%A0%E8%BD%BD/">
+                        
+                            <img class="kratos-entry-thumb-new-img" alt="">
+                        
+                    </a>
+                </div>
+                <div class="kratos-post-inner-new">
+                    <header class="kratos-entry-header-new">
+                            
+                        <h2 class="kratos-entry-title-new"><a href="/2024/05/11/Docker%E9%95%9C%E5%83%8F%E7%9A%84%E4%B8%8B%E8%BD%BD%E4%B8%8E%E5%8A%A0%E8%BD%BD/" itemprop="mainEntityOfPage"><span itemprop="name headline">Docker镜像的下载与加载</span></a>
+                    </header>
+                    <div class="kratos-entry-content-new">
+                        <p itemProp="description">
+                            
+                                下载到本地1docker save -o 镜像名.tar 镜像名:标签
+
+加载1docker load -i 镜像名.tar
+
+重命名镜像1docker tag [镜像id] [新的镜像名称]:[新的镜像标签]
+
+                            
+                        </p>
+                    </div>
+                </div>
+                <footer class="kratos-post-meta-new">
+                    <span class="pull-left">
+                        <time datetime="2024-05-11T06:39:53.000Z" itemprop="datePublished">
+                            <a><i class="fa fa-calendar"></i> 2024-05-11</a>
+                        </time>
+                        <a>
+                            
+                        </a>
+                        
+                            <!-- 当前仅支持valine/waline自带的统计功能 -->
+                            
+                        
+                        
+                            <!-- 当前仅支持waline自带的统计功能 -->
+                            
+                        
+                    </span>
+                    <span class="pull-right">
+                        <a class="read-more" href="/2024/05/11/Docker%E9%95%9C%E5%83%8F%E7%9A%84%E4%B8%8B%E8%BD%BD%E4%B8%8E%E5%8A%A0%E8%BD%BD/" title="阅读全文">阅读全文<i class="fa fa-chevron-circle-right"></i></a>
+                    </span>
+                </footer>
+            </div>
+        </article>
+    
+
+    
+    
+        <article class="kratos-hentry clearfix" itemscope itemtype="https://schema.org/Article">
+            <div class="kratos-entry-border-new clearfix">
+                
+                <div class="kratos-entry-thumb-new">
+                    <a href="/2024/05/11/Linux-%E5%AE%89%E8%A3%85-PostgreSQL-%E6%95%B0%E6%8D%AE%E5%BA%93/">
+                        
+                            <img class="kratos-entry-thumb-new-img" alt="">
+                        
+                    </a>
+                </div>
+                <div class="kratos-post-inner-new">
+                    <header class="kratos-entry-header-new">
+                            
+                        <h2 class="kratos-entry-title-new"><a href="/2024/05/11/Linux-%E5%AE%89%E8%A3%85-PostgreSQL-%E6%95%B0%E6%8D%AE%E5%BA%93/" itemprop="mainEntityOfPage"><span itemprop="name headline">Linux 安装 PostgreSQL 数据库</span></a>
+                    </header>
+                    <div class="kratos-entry-content-new">
+                        <p itemProp="description">
+                            
+                                下载压缩包下载 postgresql-9.6.24.tar.gz
+创建 postgres 用户1useradd postgres
+
+解压1tar -xvf postgresql-9.6.24.tar.gz -C /home/postg...
+                            
+                        </p>
+                    </div>
+                </div>
+                <footer class="kratos-post-meta-new">
+                    <span class="pull-left">
+                        <time datetime="2024-05-11T06:35:33.000Z" itemprop="datePublished">
+                            <a><i class="fa fa-calendar"></i> 2024-05-11</a>
+                        </time>
+                        <a>
+                            
+                        </a>
+                        
+                            <!-- 当前仅支持valine/waline自带的统计功能 -->
+                            
+                        
+                        
+                            <!-- 当前仅支持waline自带的统计功能 -->
+                            
+                        
+                    </span>
+                    <span class="pull-right">
+                        <a class="read-more" href="/2024/05/11/Linux-%E5%AE%89%E8%A3%85-PostgreSQL-%E6%95%B0%E6%8D%AE%E5%BA%93/" title="阅读全文">阅读全文<i class="fa fa-chevron-circle-right"></i></a>
+                    </span>
+                </footer>
+            </div>
+        </article>
+    
+
+
+
+
+
+    <div class="hidden">
+        <!-- 加载文章阅读对应的统计功能，评论自带的那种 -->
+        
     </div>
-    <div id="header-inner" class="inner">
-      <nav id="main-nav">
-        <a id="main-nav-toggle" class="nav-icon"><span class="fa fa-bars"></span></a>
+
+
+
         
-          <a class="main-nav-link" href="/">Home</a>
+
+            </section>
+
         
-          <a class="main-nav-link" href="/archives">Archives</a>
-        
-      </nav>
-      <nav id="sub-nav">
-        
-        
-          <a class="nav-icon" href="/atom.xml" title="RSS Feed"><span class="fa fa-rss"></span></a>
-        
-        <a class="nav-icon nav-search-btn" title="Search"><span class="fa fa-search"></span></a>
-      </nav>
-      <div id="search-form-wrap">
-        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://example.com"></form>
-      </div>
+
+                
+            
+
+<section id="kratos-widget-area" class="col-md-4 hidden-xs hidden-sm">
+    <!-- 文章和页面根据splitter来分割，没有的话就从头开始设置为sticky -->
+    
+        <div class="sticky-area">
+    
+    
+                <aside id="krw-about" class="widget widget-kratos-about clearfix">
+    <div class="photo-background"></div>
+    <div class="photo-wrapper clearfix">
+        <div class="photo-wrapper-tip text-center">
+            <img class="about-photo" src="/images/avatar.webp" loading="lazy" decoding="auto" />
+        </div>
     </div>
-  </div>
-</header>
-
-      <div class="outer">
-        <section id="main">
-  
-    <article id="post-在Linux中通过Docker镜像安装Oracle" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/2024/05/11/%E5%9C%A8Linux%E4%B8%AD%E9%80%9A%E8%BF%87Docker%E9%95%9C%E5%83%8F%E5%AE%89%E8%A3%85Oracle/" class="article-date">
-  <time class="dt-published" datetime="2024-05-11T06:45:36.000Z" itemprop="datePublished">2024-05-11</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/2024/05/11/%E5%9C%A8Linux%E4%B8%AD%E9%80%9A%E8%BF%87Docker%E9%95%9C%E5%83%8F%E5%AE%89%E8%A3%85Oracle/">在Linux中通过Docker镜像安装Oracle</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="e-content article-entry" itemprop="articleBody">
-      
-        <h5 id="下载镜像"><a href="#下载镜像" class="headerlink" title="下载镜像"></a>下载镜像</h5><blockquote>
-<p>镜像在阿里云盘</p>
-<p>&#x2F;备份盘&#x2F;开发环境&#x2F;linux&#x2F;数据库&#x2F;oracle&#x2F;docker镜像&#x2F;oracle19c.tar</p>
-</blockquote>
-<h5 id="上传到对应的服务器"><a href="#上传到对应的服务器" class="headerlink" title="上传到对应的服务器"></a>上传到对应的服务器</h5><p>导入镜像</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker load -i oracle19c.tar</span><br></pre></td></tr></table></figure>
-
-<p>重命名镜像</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker tag 7b5eb4597688 oracle19c:19</span><br></pre></td></tr></table></figure>
-
-<h5 id="创建挂载文件"><a href="#创建挂载文件" class="headerlink" title="创建挂载文件"></a>创建挂载文件</h5><p>创建目录</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">mkdir</span> /data1/oracle19/oradata</span><br></pre></td></tr></table></figure>
-
-<p>授权</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">chmod</span> 777 /data1/oracle19/oradata</span><br></pre></td></tr></table></figure>
-
-<h5 id="执行安装"><a href="#执行安装" class="headerlink" title="执行安装"></a>执行安装</h5><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">docker run -d  \</span><br><span class="line">-p 1524:1521 -p 5502:5500 \</span><br><span class="line">-e ORACLE_SID=ORCLCDB \</span><br><span class="line">-e ORACLE_PDB=ORCLPDB1 \</span><br><span class="line">-e ORACLE_PWD=123456 \</span><br><span class="line">-e ORACLE_EDITION=standard \</span><br><span class="line">-e ORACLE_CHARACTERSET=AL32UTF8 \</span><br><span class="line">-v /data1/oracle19/oradata:/opt/oracle/oradata \</span><br><span class="line">--name orcl19c_03 \</span><br><span class="line">oracle19c:19</span><br></pre></td></tr></table></figure>
-
-<h5 id="查看日志"><a href="#查看日志" class="headerlink" title="查看日志"></a>查看日志</h5><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker logs -ft orcl19c_03</span><br></pre></td></tr></table></figure>
-
-<h5 id="连接-Oracle"><a href="#连接-Oracle" class="headerlink" title="连接 Oracle"></a>连接 Oracle</h5><p>进入容器</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker <span class="built_in">exec</span> -it orcl19c_03 /bin/bash</span><br></pre></td></tr></table></figure>
-
-<p>连接oracle</p>
-<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sqlplus <span class="operator">/</span> <span class="keyword">as</span> sysdba</span><br><span class="line"><span class="keyword">show</span> pdbs;</span><br></pre></td></tr></table></figure>
-
-<h5 id="通过-https-localhost-5502-em-来访问"><a href="#通过-https-localhost-5502-em-来访问" class="headerlink" title="通过 https://localhost:5502/em 来访问"></a>通过 <a target="_blank" rel="noopener" href="https://localhost:5502/em">https://localhost:5502/em</a> 来访问</h5><blockquote>
-<p>username：sys</p>
-<p>password：123456</p>
-<p>container name：ORCLPDB1</p>
-</blockquote>
-
-      
+    <div class="textwidget">
+        <p class="text-center"></p>
     </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/2024/05/11/%E5%9C%A8Linux%E4%B8%AD%E9%80%9A%E8%BF%87Docker%E9%95%9C%E5%83%8F%E5%AE%89%E8%A3%85Oracle/" data-id="clw1qxoyr0000msx6b5wa3gui" data-title="在Linux中通过Docker镜像安装Oracle" class="article-share-link"><span class="fa fa-share">Share</span></a>
-      
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-
-  
-    <article id="post-Docker镜像的下载与加载" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/2024/05/11/Docker%E9%95%9C%E5%83%8F%E7%9A%84%E4%B8%8B%E8%BD%BD%E4%B8%8E%E5%8A%A0%E8%BD%BD/" class="article-date">
-  <time class="dt-published" datetime="2024-05-11T06:39:53.000Z" itemprop="datePublished">2024-05-11</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/2024/05/11/Docker%E9%95%9C%E5%83%8F%E7%9A%84%E4%B8%8B%E8%BD%BD%E4%B8%8E%E5%8A%A0%E8%BD%BD/">Docker镜像的下载与加载</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="e-content article-entry" itemprop="articleBody">
-      
-        <h4 id="下载到本地"><a href="#下载到本地" class="headerlink" title="下载到本地"></a>下载到本地</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker save -o 镜像名.tar 镜像名:标签</span><br></pre></td></tr></table></figure>
-
-<h4 id="加载"><a href="#加载" class="headerlink" title="加载"></a>加载</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker load -i 镜像名.tar</span><br></pre></td></tr></table></figure>
-
-<h4 id="重命名镜像"><a href="#重命名镜像" class="headerlink" title="重命名镜像"></a>重命名镜像</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker tag [镜像<span class="built_in">id</span>] [新的镜像名称]:[新的镜像标签]</span><br></pre></td></tr></table></figure>
-
-      
+    <div class="site-meta">
+        <a class="meta-item" href="/archives/">
+            <span class="title">
+                文章
+            </span>
+            <span class="count">
+                3
+            </span>
+        </a>
+        <a class="meta-item" href="/categories/">
+            <span class="title">
+                分类
+            </span>
+            <span class="count">
+                0
+            </span>
+        </a>
+        <a class="meta-item" href="/tags/">
+            <span class="title">
+                标签
+            </span>
+            <span class="count">
+                0
+            </span>
+        </a>
     </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/2024/05/11/Docker%E9%95%9C%E5%83%8F%E7%9A%84%E4%B8%8B%E8%BD%BD%E4%B8%8E%E5%8A%A0%E8%BD%BD/" data-id="clw1qos8c0000wox60yzb0tq9" data-title="Docker镜像的下载与加载" class="article-share-link"><span class="fa fa-share">Share</span></a>
-      
-      
-      
-    </footer>
-  </div>
-  
-</article>
+</aside>
+            
+                
 
-
-
-  
-    <article id="post-Linux-安装-PostgreSQL-数据库" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/2024/05/11/Linux-%E5%AE%89%E8%A3%85-PostgreSQL-%E6%95%B0%E6%8D%AE%E5%BA%93/" class="article-date">
-  <time class="dt-published" datetime="2024-05-11T06:35:33.000Z" itemprop="datePublished">2024-05-11</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
+            
+                
+            
+                
+  <aside id="krw-posts" class="widget widget-kratos-posts">
+  <h4 class="widget-title"><i class="fa fa-file"></i>最新文章</h4>
+  <div class="tab-content">
+      <ul class="list-group">
         
-  
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/2024/05/11/Linux-%E5%AE%89%E8%A3%85-PostgreSQL-%E6%95%B0%E6%8D%AE%E5%BA%93/">Linux 安装 PostgreSQL 数据库</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="e-content article-entry" itemprop="articleBody">
-      
-        <h5 id="下载压缩包"><a href="#下载压缩包" class="headerlink" title="下载压缩包"></a>下载压缩包</h5><p><a target="_blank" rel="noopener" href="https://ftp.postgresql.org/pub/source/v9.6.24/postgresql-9.6.24.tar.gz">下载 postgresql-9.6.24.tar.gz</a></p>
-<h5 id="创建-postgres-用户"><a href="#创建-postgres-用户" class="headerlink" title="创建 postgres 用户"></a>创建 postgres 用户</h5><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">useradd postgres</span><br></pre></td></tr></table></figure>
-
-<h5 id="解压"><a href="#解压" class="headerlink" title="解压"></a>解压</h5><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">tar -xvf postgresql-9.6.24.tar.gz -C /home/postgres/</span><br></pre></td></tr></table></figure>
-
-<h5 id="编译源码"><a href="#编译源码" class="headerlink" title="编译源码"></a>编译源码</h5><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">./configure --prefix=/home/postgres/postgresql</span><br><span class="line">make</span><br><span class="line">make install</span><br></pre></td></tr></table></figure>
-
-<h5 id="创建data-和-logs-目录"><a href="#创建data-和-logs-目录" class="headerlink" title="创建data 和 logs 目录"></a>创建data 和 logs 目录</h5><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">mkdir</span> -p /home/postgres/pgsql/data</span><br><span class="line"><span class="built_in">mkdir</span> -p /home/postgres/pgsql/logs</span><br></pre></td></tr></table></figure>
-
-<h5 id="授权"><a href="#授权" class="headerlink" title="授权"></a>授权</h5><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">chown</span> -R postgres:postgres /home/postgres/pgsql</span><br></pre></td></tr></table></figure>
-
-<p>配置环境变量</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">vi .bash_profile</span><br><span class="line"></span><br><span class="line"><span class="built_in">export</span> PGHOME=/home/postgres/postgresql</span><br><span class="line"><span class="built_in">export</span> PGDATA=/home/postgres/postgresql/data</span><br><span class="line">PATH=<span class="variable">$PATH</span>:<span class="variable">$HOME</span>/bin:<span class="variable">$PGHOME</span>/bin</span><br></pre></td></tr></table></figure>
-
-<h5 id="初始化"><a href="#初始化" class="headerlink" title="初始化"></a>初始化</h5><ol>
-<li><p>切换 postgres 用户</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">su - postgres</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>进入 PostgreSQL 安装目录的 bin 目录下执行</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">./initdb -E utf8 -D /home/postgres/pgsql/data</span><br></pre></td></tr></table></figure>
-
-<h5 id="启动"><a href="#启动" class="headerlink" title="启动"></a>启动</h5><p>再bin目录下执行</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">./bin/pg_ctl -D /home/postgres/pgsql/data -l logfile start</span><br></pre></td></tr></table></figure>
-
-<h5 id="关闭"><a href="#关闭" class="headerlink" title="关闭"></a>关闭</h5><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">./bin/pg_ctl -D /home/postgres/pgsql/data stop</span><br></pre></td></tr></table></figure>
-
-<h5 id="登录-postgresql-数据库"><a href="#登录-postgresql-数据库" class="headerlink" title="登录 postgresql 数据库"></a>登录 postgresql 数据库</h5><p>进入bin目录，执行</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">./psql</span><br></pre></td></tr></table></figure>
-
-<h5 id="创建用户和数据库并授权"><a href="#创建用户和数据库并授权" class="headerlink" title="创建用户和数据库并授权"></a>创建用户和数据库并授权</h5><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">create user test_user with password &#x27;123456&#x27;; // 创建用户</span><br><span class="line">create database test_db owner test_user; // 创建数据库</span><br><span class="line">grant all privileges on database test_db to test_user; // 授权</span><br></pre></td></tr></table></figure>
-
-<h5 id="退出psql"><a href="#退出psql" class="headerlink" title="退出psql"></a>退出psql</h5><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">\q</span><br></pre></td></tr></table></figure>
-
-<h5 id="连接数据库"><a href="#连接数据库" class="headerlink" title="连接数据库"></a>连接数据库</h5><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">./bin/psql -h 127.0.0.1 -d test_db -U test_user -p 5432</span><br></pre></td></tr></table></figure>
-
-<h5 id="开启远程访问"><a href="#开启远程访问" class="headerlink" title="开启远程访问"></a>开启远程访问</h5><p>修改 postgresql.conf 配置</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vi postgresql.conf</span><br></pre></td></tr></table></figure>
-
-<blockquote>
-<p>取消 listen_addresses 的注释，将参数值改为“*”</p>
-</blockquote>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">listen_addresses        <span class="string">&quot;*&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>修改 pg_hba.conf 配置</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vi pg_hba.conf</span><br></pre></td></tr></table></figure>
-
-<p>增加以下内容</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">host    all             all             0.0.0.0/0            md5</span><br></pre></td></tr></table></figure>
-
-<h5 id="设置开机自启"><a href="#设置开机自启" class="headerlink" title="设置开机自启"></a>设置开机自启</h5><p>PostgreSQL的开机自启动脚本位于PostgreSQL源码目录的contrib&#x2F;start-scripts路径下。<br>linux文件即为linux系统上的启动脚本</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> /pgsql/postgresql-11.1/contrib/start-scripts</span><br><span class="line"><span class="built_in">ls</span></span><br></pre></td></tr></table></figure>
-
-<blockquote>
-<p>freebsd linux macos</p>
-</blockquote>
-</li>
-<li><p>切换为root用户，修改linux文件属性，添加X属性</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">chmod</span> a+x linux</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>复制linux文件到&#x2F;etc&#x2F;init.d目录下，更名为postgresql</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cp</span> linux /etc/init.d/postgresql</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>修改&#x2F;etc&#x2F;init.d&#x2F;postgresql文件的两个变量</p>
-<blockquote>
-<p>prefix设置为postgresql的安装路径：&#x2F;pgsql&#x2F;postgresql<br>PGDATA设置为postgresql的数据目录路径：&#x2F;pgsql&#x2F;postgresql&#x2F;data</p>
-</blockquote>
-</li>
-<li><p>设置postgresql服务开机自启动</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">chkconfig --add postgresql</span><br></pre></td></tr></table></figure>
-
-<p>查看开机自启动服务设置成功。</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">chkconfig</span><br></pre></td></tr></table></figure>
-
-<blockquote>
-<p>postgresql 0:关闭 1:关闭 2:启用 3:启用 4:启用 5:启用 6:关闭</p>
-</blockquote>
-</li>
-<li><p>编辑&#x2F;etc&#x2F;sysconfig&#x2F;iptables文件开放5432端口。</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> /etc/sysconfig</span><br><span class="line">vi iptables</span><br></pre></td></tr></table></figure>
-
-<p>添加以下内容</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">-A INPUT -p tcp -m tcp --dport 5432 -j ACCEPT</span><br></pre></td></tr></table></figure>
-
-<p>重启服务</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">/etc/init.d/iptables restart</span><br></pre></td></tr></table></figure>
-
-<blockquote>
-<p>iptables：清除防火墙规则： [确定]<br>iptables：将链设置为政策 ACCEPT：filter [确定]<br>iptables：正在卸载模块： [确定]<br>iptables：应用防火墙规则： [确定]</p>
-</blockquote>
-<p>查看端口是否开放</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">/sbin/iptables -L -n</span><br></pre></td></tr></table></figure>
-
-<blockquote>
-<p>Chain INPUT (policy ACCEPT)</p>
-<p>target prot opt source destination</p>
-<p>ACCEPT all – 0.0.0.0&#x2F;0 0.0.0.0&#x2F;0 state RELATED,ESTABLISHED ACCEPT icmp – 0.0.0.0&#x2F;0 0.0.0.0&#x2F;0</p>
-<p>ACCEPT all – 0.0.0.0&#x2F;0 0.0.0.0&#x2F;0</p>
-<p>ACCEPT tcp – 0.0.0.0&#x2F;0 0.0.0.0&#x2F;0 tcp dpt:5432</p>
-<p>ACCEPT tcp – 0.0.0.0&#x2F;0 0.0.0.0&#x2F;0 state NEW tcp dpt:22</p>
-<p>REJECT all – 0.0.0.0&#x2F;0 0.0.0.0&#x2F;0 reject-with icmp-host-prohibited Chain FORWARD (policy ACCEPT)</p>
-<p>target prot opt source destination</p>
-<p>REJECT all – 0.0.0.0&#x2F;0 0.0.0.0&#x2F;0 reject-with icmp-host-prohibited</p>
-<p>Chain OUTPUT (policy ACCEPT)</p>
-<p>target prot opt source destination</p>
-</blockquote>
-</li>
-<li><p>执行service postgresql start，启动PostgreSQL服务</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">service postgresql start</span><br></pre></td></tr></table></figure>
-
-<blockquote>
-<p>Starting PostgreSQL: ok</p>
-</blockquote>
-</li>
-<li><p>查看PostgreSQL服务</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ps -ef | grep postgres</span><br></pre></td></tr></table></figure></li>
-</ol>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/2024/05/11/Linux-%E5%AE%89%E8%A3%85-PostgreSQL-%E6%95%B0%E6%8D%AE%E5%BA%93/" data-id="clw1qhf290000g8x61szj0rxx" data-title="Linux 安装 PostgreSQL 数据库" class="article-share-link"><span class="fa fa-share">Share</span></a>
-      
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-
-  
-
-
-</section>
         
-          <aside id="sidebar">
-  
-    
-
-  
-    
-
-  
-    
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Archives</h3>
-    <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2024/05/">May 2024</a></li></ul>
-    </div>
-  </div>
-
-
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Recent Posts</h3>
-    <div class="widget">
-      <ul>
+          
+          
+            <a class="list-group-item" href="/2024/05/11/%E5%9C%A8Linux%E4%B8%AD%E9%80%9A%E8%BF%87Docker%E9%95%9C%E5%83%8F%E5%AE%89%E8%A3%85Oracle/"><i class="fa  fa-book"></i> 在Linux中通过Docker镜像安装Oracle</a>
+            
+          
         
-          <li>
-            <a href="/2024/05/11/%E5%9C%A8Linux%E4%B8%AD%E9%80%9A%E8%BF%87Docker%E9%95%9C%E5%83%8F%E5%AE%89%E8%A3%85Oracle/">在Linux中通过Docker镜像安装Oracle</a>
-          </li>
+          
+          
+            <a class="list-group-item" href="/2024/05/11/Docker%E9%95%9C%E5%83%8F%E7%9A%84%E4%B8%8B%E8%BD%BD%E4%B8%8E%E5%8A%A0%E8%BD%BD/"><i class="fa  fa-book"></i> Docker镜像的下载与加载</a>
+            
+          
         
-          <li>
-            <a href="/2024/05/11/Docker%E9%95%9C%E5%83%8F%E7%9A%84%E4%B8%8B%E8%BD%BD%E4%B8%8E%E5%8A%A0%E8%BD%BD/">Docker镜像的下载与加载</a>
-          </li>
-        
-          <li>
-            <a href="/2024/05/11/Linux-%E5%AE%89%E8%A3%85-PostgreSQL-%E6%95%B0%E6%8D%AE%E5%BA%93/">Linux 安装 PostgreSQL 数据库</a>
-          </li>
+          
+          
+            <a class="list-group-item" href="/2024/05/11/Linux-%E5%AE%89%E8%A3%85-PostgreSQL-%E6%95%B0%E6%8D%AE%E5%BA%93/"><i class="fa  fa-book"></i> Linux 安装 PostgreSQL 数据库</a>
+            
+          
         
       </ul>
-    </div>
   </div>
+  </aside>
 
-  
-</aside>
+            
+    </div>
+</section>
         
-      </div>
-      <footer id="footer">
-  
-  <div class="outer">
-    <div id="footer-info" class="inner">
-      
-      &copy; 2024 John Doe<br>
-      Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>
+        </div>
     </div>
-  </div>
+</div>
+<footer>
+    <div id="footer"  class="ap-lrc"  >
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3 footer-list text-center">
+                    <ul class="kratos-social-icons">
+                        <!-- Keep for compatibility -->
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        <!-- New links -->
+                        
+                    </ul>
+                    <ul class="kratos-copyright">
+                        <div>
+                            <li>&copy; 2024 Hexo 版权所有.</li>
+                            <li>本站已运行<span id="span_dt">Loading...</span></li>
+                        </div>
+                        <div>
+                            <li>Theme <a href="https://github.com/Candinya/Kratos-Rebirth" target="_blank">Kratos:Rebirth</a></li>
+                            <li>Site built with&nbsp;<i class="fa fa-heart throb" style="color:#d43f57"></i>&nbsp;by John Doe.</li>
+                        </div>
+                        <div>
+                            <li>Powered by <a href="https://hexo.io" target="_blank" rel="nofollow">Hexo</a></li>
+                            <li>Hosted on <a href="https://github.io" target="_blank">Github Pages</a></li>
+                        </div>
+                        <div>
+                            
+                            
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="kr-tool text-center">
+            <div class="tool">
+                
+                    <div class="box search-box">
+                        <a href="/search/">
+                            <span class="fa fa-search"></span>
+                        </a>
+                    </div>
+                
+                
+                    <div class="box theme-box" id="darkmode-switch">
+                        <span class="fa fa-adjust"></span>
+                    </div>
+                
+                
+                
+            </div>
+            <div class="box gotop-box">
+                <span class="fa fa-chevron-up"></span>
+            </div>
+        </div>
+    </div>
 </footer>
+</div>
+</div>
 
-    </div>
-    <nav id="mobile-nav">
-  
-    <a href="/" class="mobile-nav-link">Home</a>
-  
-    <a href="/archives" class="mobile-nav-link">Archives</a>
-  
-</nav>
+        <script defer src="/vendors/bootstrap@3.3.4/dist/js/bootstrap.min.js"></script>
+<script defer src="/vendors/nprogress@0.2.0/nprogress.js"></script>
+<script>
+    if (!window.kr) {
+        window.kr = {};
+    }
+    window.kr.notMobile = (!(navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i)));
+    window.kr.siteRoot = "/";
+</script>
+
+
+    <script async src="/js/candy.min.js"></script>
+
+
+
+    <script defer src="/vendors/aplayer@1.10.1/dist/APlayer.min.js"></script>
     
-
-
-<script src="/js/jquery-3.6.4.min.js"></script>
-
-
-
-  
-<script src="/fancybox/jquery.fancybox.min.js"></script>
-
-
-
-
-<script src="/js/script.js"></script>
+    <script defer src="/vendors/meting@2.0.1/dist/Meting.min.js"></script>
+    <meting-js
+        server="netease"
+        type="playlist"
+        id="3204190542"
+        order="random"
+        fixed="true"
+    >
+    </meting-js>
 
 
 
+    <script defer src="/vendors/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
+<script defer src="/js/kratosr.min.js"></script>
+<script defer src="/js/pjax.min.js"></script>
 
 
-  </div>
-</body>
+
+<!-- Extra support for third-party plguins  -->
+
+
+    </body>
 </html>
