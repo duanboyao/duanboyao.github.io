@@ -69,6 +69,49 @@
       <div class="outer">
         <section id="main">
   
+    <article id="post-Docker镜像的下载与加载" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2024/05/11/Docker%E9%95%9C%E5%83%8F%E7%9A%84%E4%B8%8B%E8%BD%BD%E4%B8%8E%E5%8A%A0%E8%BD%BD/" class="article-date">
+  <time class="dt-published" datetime="2024-05-11T06:39:53.000Z" itemprop="datePublished">2024-05-11</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="p-name article-title" href="/2024/05/11/Docker%E9%95%9C%E5%83%8F%E7%9A%84%E4%B8%8B%E8%BD%BD%E4%B8%8E%E5%8A%A0%E8%BD%BD/">Docker镜像的下载与加载</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <h4 id="下载到本地"><a href="#下载到本地" class="headerlink" title="下载到本地"></a>下载到本地</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker save -o 镜像名.tar 镜像名:标签</span><br></pre></td></tr></table></figure>
+
+<h4 id="加载"><a href="#加载" class="headerlink" title="加载"></a>加载</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker load -i 镜像名.tar</span><br></pre></td></tr></table></figure>
+
+<h4 id="重命名镜像"><a href="#重命名镜像" class="headerlink" title="重命名镜像"></a>重命名镜像</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker tag [镜像<span class="built_in">id</span>] [新的镜像名称]:[新的镜像标签]</span><br></pre></td></tr></table></figure>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2024/05/11/Docker%E9%95%9C%E5%83%8F%E7%9A%84%E4%B8%8B%E8%BD%BD%E4%B8%8E%E5%8A%A0%E8%BD%BD/" data-id="clw1qos8c0000wox60yzb0tq9" data-title="Docker镜像的下载与加载" class="article-share-link"><span class="fa fa-share">Share</span></a>
+      
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
     <article id="post-Linux-安装-PostgreSQL-数据库" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
     <a href="/2024/05/11/Linux-%E5%AE%89%E8%A3%85-PostgreSQL-%E6%95%B0%E6%8D%AE%E5%BA%93/" class="article-date">
@@ -252,6 +295,10 @@
     <h3 class="widget-title">Recent Posts</h3>
     <div class="widget">
       <ul>
+        
+          <li>
+            <a href="/2024/05/11/Docker%E9%95%9C%E5%83%8F%E7%9A%84%E4%B8%8B%E8%BD%BD%E4%B8%8E%E5%8A%A0%E8%BD%BD/">Docker镜像的下载与加载</a>
+          </li>
         
           <li>
             <a href="/2024/05/11/Linux-%E5%AE%89%E8%A3%85-PostgreSQL-%E6%95%B0%E6%8D%AE%E5%BA%93/">Linux 安装 PostgreSQL 数据库</a>
